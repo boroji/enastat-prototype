@@ -1,9 +1,7 @@
 @use '../../core/' as *;
 
 @mixin secondary {
-	&-secondary {
-		border: 1px solid var(--btn-secondary-text, #218360);
-		background: var(--btn-secondary-bg, #fff);
-		color: var(--btn-secondary-text, #218360);
-	}
+	border: 1px solid var(--btn-secondary-text, #218360);
+	background: var(--btn-secondary-bg, #fff);
+	color: var(--btn-secondary-text, #218360);
 }

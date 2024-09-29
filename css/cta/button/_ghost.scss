@@ -1,7 +1,5 @@
 @use '../../core/' as *;
 
 @mixin ghost {
-	&-ghost {
-		color: var(--btn-tertiary-text, #3e7461);
-	}
+	color: var(--btn-tertiary-text, #3e7461);
 }

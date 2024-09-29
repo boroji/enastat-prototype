@@ -25,4 +25,58 @@
 			@include primary();
 		}
 	}
+
+	&-secondary {
+		&-sm {
+			@include common-styles();
+			@include button-sm();
+			@include secondary();
+		}
+		&-md {
+			@include common-styles();
+			@include button-md();
+			@include secondary();
+		}
+		&-lg {
+			@include common-styles();
+			@include button-lg();
+			@include secondary();
+		}
+	}
+
+	&-tertiary {
+		&-sm {
+			@include common-styles();
+			@include button-sm();
+			@include tertiary();
+		}
+		&-md {
+			@include common-styles();
+			@include button-md();
+			@include tertiary();
+		}
+		&-lg {
+			@include common-styles();
+			@include button-lg();
+			@include tertiary();
+		}
+	}
+
+	&-ghost {
+		&-sm {
+			@include common-styles();
+			@include button-sm();
+			@include ghost();
+		}
+		&-md {
+			@include common-styles();
+			@include button-md();
+			@include ghost();
+		}
+		&-lg {
+			@include common-styles();
+			@include button-lg();
+			@include ghost();
+		}
+	}
 }

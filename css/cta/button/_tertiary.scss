@@ -1,8 +1,6 @@
 @use '../../core/' as *;
 
 @mixin tertiary {
-	&-tertiary {
-		background: var(--btn-tertiary-bg, #eaf6f1);
-		color: var(--btn-tertiary-text, #3e7461);
-	}
+	background: var(--btn-tertiary-bg, #eaf6f1);
+	color: var(--btn-tertiary-text, #3e7461);
 }
