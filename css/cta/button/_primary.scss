@@ -1,0 +1,6 @@
+@use '../../core/' as *;
+
+@mixin primary {
+	background: var(--btn-primary-bg, #088759);
+	color: var(--btn-primary-text, #fff);
+}

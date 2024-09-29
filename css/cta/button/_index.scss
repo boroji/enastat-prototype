@@ -1,0 +1,28 @@
+@use './button-sm' as *;
+@use './button-md' as *;
+@use './button-lg' as *;
+@use './common-styles' as *;
+@use './primary' as *;
+@use './secondary' as *;
+@use './tertiary' as *;
+@use './ghost' as *;
+
+.button {
+	&-primary {
+		&-sm {
+			@include common-styles();
+			@include button-sm();
+			@include primary();
+		}
+		&-md {
+			@include common-styles();
+			@include button-md();
+			@include primary();
+		}
+		&-lg {
+			@include common-styles();
+			@include button-lg();
+			@include primary();
+		}
+	}
+}
