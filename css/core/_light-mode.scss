@@ -1,0 +1,32 @@
+body.light {
+	--btn-primary-bg: var(--primary-40);
+	--core-paragraph: var(--gray-40);
+	--btn-primary-text: var(--gray-100);
+	--btn-tertiary-bg: var(--tertiary-94);
+	--btn-secondary-text: var(--secondary-40);
+	--btn-secondary-bg: var(--gray-100);
+	--btn-tertiary-text: var(--tertiary-40);
+	--core-title: var(--gray-10);
+	--status-pending-text: var(--orange-50);
+	--status-pending-bg: var(--orange-94);
+	--status-error-text: var(--red-40);
+	--status-error-bg: var(--red-94);
+	--status-success-text: var(--green-30);
+	--status-success-bg: var(--green-94);
+	--status-cooling-text: var(--blue-50);
+	--status-cooling-bg: var(--blue-94);
+	--status-insight-text: var(--purple-50);
+	--status-insight-bg: var(--purple-94);
+	--core-background: var(--gray-100);
+	--card-shadow: var(--gray-transparent-black-5);
+	--card-card: var(--gray-100);
+	--card-border-1: var(--gray-90);
+	--avatar-stop-1: var(--gradient-light-stop-1);
+	--avatar-stop-2: var(--gradient-light-stop-2);
+	--card-border-2: var(--gray-90);
+	--card-accordion-hover: var(--gray-94);
+	--chart-heat: var(--red-40);
+	--chart-cool: var(--blue-50);
+	--chart-heat-2: var(--red-94);
+	--chart-cool-2: var(--blue-94);
+}

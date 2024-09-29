@@ -1,0 +1,32 @@
+body.dark {
+	--btn-primary-bg: var(--primary-dark-40);
+	--core-paragraph: var(--gray-94);
+	--btn-primary-text: var(--primary-dark-15);
+	--btn-tertiary-bg: var(--gray-transparent-white-15);
+	--btn-secondary-text: var(--secondary-dark-60);
+	--btn-secondary-bg: var(--gray-transparent-white-5);
+	--btn-tertiary-text: var(--tertiary-dark-70);
+	--core-title: var(--gray-100);
+	--status-pending-text: var(--orange-dark-20);
+	--status-pending-bg: var(--orange-dark-70);
+	--status-error-text: var(--red-dark-20);
+	--status-error-bg: var(--red-dark-70);
+	--status-success-text: var(--green-dark-20);
+	--status-success-bg: var(--green-dark-40);
+	--status-cooling-text: var(--blue-dark-15);
+	--status-cooling-bg: var(--blue-dark-70);
+	--status-insight-text: var(--purple-dark-15);
+	--status-insight-bg: var(--purple-dark-80);
+	--core-background: var(--gray-10);
+	--card-shadow: var(--gray-transparent-black-15);
+	--card-card: var(--gray-20);
+	--card-border-1: var(--gray-20);
+	--avatar-stop-1: var(--gradient-dark-stop-1);
+	--avatar-stop-2: var(--gradient-dark-stop-2);
+	--card-border-2: var(--gray-30);
+	--card-accordion-hover: var(--gray-transparent-white-15);
+	--chart-heat: var(--red-dark-70);
+	--chart-cool: var(--blue-dark-70);
+	--chart-heat-2: var(--red-dark-20);
+	--chart-cool-2: var(--blue-dark-15);
+}
