@@ -351,6 +351,7 @@ body {
 }
 
 .sidebar-header {
+  width: 100%;
   display: flex;
   padding: 16px;
   flex-direction: column;
@@ -359,4 +360,13 @@ body {
 
 .sidebar-logo {
   padding-bottom: 24px;
+}
+
+.sidebar-item {
+  width: 100%;
+  justify-content: flex-start;
+}
+.sidebar-item > span {
+  text-align: left;
+  flex-grow: 1;
 }/*# sourceMappingURL=index.css.map */

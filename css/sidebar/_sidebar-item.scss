@@ -1,0 +1,10 @@
+@use '../cta/' as *;
+
+.sidebar-item {
+	width: 100%;
+	justify-content: flex-start;
+	> span {
+		text-align: left;
+		flex-grow: 1;
+	}
+}
