@@ -1,0 +1,18 @@
+@use '../core/' as *;
+
+.sidebar-expand {
+	width: 100%;
+	.sidebar-expand-header {
+		svg path {
+			fill: var(--btn-tertiary-text);
+		}
+	}
+
+	&.active {
+		.sidebar-expand-header {
+			svg path {
+				fill: var(--btn-primary-text);
+			}
+		}
+	}
+}

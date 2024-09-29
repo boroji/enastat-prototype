@@ -360,6 +360,7 @@ body {
 
 .sidebar-logo {
   padding-bottom: 24px;
+  cursor: pointer;
 }
 
 .sidebar-item {
@@ -369,4 +370,14 @@ body {
 .sidebar-item > span {
   text-align: left;
   flex-grow: 1;
+}
+
+.sidebar-expand {
+  width: 100%;
+}
+.sidebar-expand .sidebar-expand-header svg path {
+  fill: var(--btn-tertiary-text);
+}
+.sidebar-expand.active .sidebar-expand-header svg path {
+  fill: var(--btn-primary-text);
 }/*# sourceMappingURL=index.css.map */
