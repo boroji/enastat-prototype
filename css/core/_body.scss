@@ -1,0 +1,5 @@
+@use './color' as *;
+
+body {
+	background-color: var(--core-background);
+}
