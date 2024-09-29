@@ -1,6 +1,6 @@
 @use '../core/' as *;
 
-.button {
+@mixin common-styles {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
@@ -11,34 +11,62 @@
 	font-weight: 500;
 	line-height: 20px;
 	cursor: pointer;
+}
 
-	&-primary {
-		background: var(--btn-primary-bg, #088759);
-		color: var(--btn-primary-text, #fff);
-	}
+@mixin button-sm {
+	padding: 4px 8px;
+}
 
+@mixin button-md {
+	padding: 8px 16px;
+}
+
+@mixin button-lg {
+	padding: 12px 24px;
+}
+
+@mixin primary {
+	background: var(--btn-primary-bg, #088759);
+	color: var(--btn-primary-text, #fff);
+}
+
+@mixin secondary {
 	&-secondary {
 		border: 1px solid var(--btn-secondary-text, #218360);
 		background: var(--btn-secondary-bg, #fff);
 		color: var(--btn-secondary-text, #218360);
 	}
+}
 
+@mixin tertiary {
 	&-tertiary {
 		background: var(--btn-tertiary-bg, #eaf6f1);
 		color: var(--btn-tertiary-text, #3e7461);
 	}
+}
 
+@mixin ghost {
 	&-ghost {
 		color: var(--btn-tertiary-text, #3e7461);
 	}
+}
 
-	&-sm {
-		padding: 4px 8px;
-	}
-	&-md {
-		padding: 8px 16px;
-	}
-	&-lg {
-		padding: 12px 24px;
+.button {
+	&-primary {
+		&-sm {
+			@include common-styles();
+			@include button-sm();
+			@include primary();
+		}
+		&-md {
+			@include common-styles();
+			@include button-md();
+			@include primary();
+		}
+		&-lg {
+			@include common-styles();
+			@include button-lg();
+			@include primary();
+		}
 	}
 }
